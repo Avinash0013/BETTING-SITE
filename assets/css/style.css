@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.header{
+    background: #1D1D1D;height: 50px;display: flex;align-items: center;color: #fff;
+}
+.header .container .left  {
+    float: left;
+}
+.header .container .left .logo{
+margin-left: 15px;
+}
+.header .container .right {
+    float: right;
+}
+
+.header .container .right .btn{
+    color: #fff;
+    background: #3f3f3f;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.owl-nav, .owl-dots {
+    display: none;
+}
+.owl-item img {
+    width: 100%; /* Adjust as needed */
+    height: auto; /* Adjust as needed */
+}
+#slider img{
+    width: 100%;
+    height: 180px;
+    border-radius: 5px;
+}
+
+
+main{
+    margin-top: 10px;
+    padding: 0 10px;
+}
+#category{
+    padding-top: 10px;
+}
+
+.cat-row{
+    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+.cat-row a{
+    display: flex;
+    flex-direction: column;
+    width: 34%;
+    justify-content: space-between;
+    padding: 5px;
+}
+#matchesfilterhead{
+    margin-top: 10px;
+    background: #1D1D1D;
+    height: 60px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+#matchesfilterhead .left{
+    float: left;
+}
+#matchesfilterhead .left h3 {
+    color: #fff;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+#matchesfilterhead .left h3 img{
+margin-right: 10px;
+height: 25px;
+
+}
+ .right{
+    float: right;
+    DISPLAY: INLINE-FLEX;
+    GAP: 10PX;
+}
+
+#matchesfilterhead .right .btn{
+    color: #fff;
+    background: #3f3f3f;
+    font-weight: 600;
+    border-radius: 50px;
+    DISPLAY: FLEX;
+    ALIGN-ITEMS: CENTER;
+}
+#matchesfilterhead .right .btn img{
+    margin-right: 5px;
+}
